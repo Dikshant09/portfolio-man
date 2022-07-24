@@ -40,7 +40,7 @@ const Contact = () => {
       return ;
     }
     
-    if(!email.endsWith("@gmail.com")){
+    if(!email.includes("@")){
       toast.error('Please enter a valid email address');
       return ;
     }
