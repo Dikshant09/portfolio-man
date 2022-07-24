@@ -19,7 +19,6 @@ app.use(express.urlencoded({ extended: false }))
 // Parse json
 app.use(express.json());
 
-// Messages Routes
 app.use('/api/', messageRoutes);
 
 // Serve Frontend
