@@ -18,7 +18,6 @@ const ProjectItem = () => {
         <div className="imageContainerItem">
           <img src={images[project.imgUrl]} alt="" />
         </div>
-        {/* <div className="imageContainerItem" style={{ backgroundImage: `url(${images[project.imgUrl]})`}}></div> */}
         <div>
           <div className="description app__flex">{project.description}</div>
           <div className="app__flex">

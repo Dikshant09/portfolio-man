@@ -47,6 +47,8 @@ const Contact = () => {
 
     try{
       await axios.post(API_URL, contact);
+      const data = await axios.get(API_URL);
+      console.log(data)
       setIsFromSubmitted(true);
     }catch(error){
       toast.error('Message not sent');

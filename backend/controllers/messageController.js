@@ -12,8 +12,6 @@ const getMessages = asyncHandler(async (req, res) => {
     }
 })
 
-
-
 const createMessage = asyncHandler(async(req, res) =>{
     const { name, email, message } = req.body;
     

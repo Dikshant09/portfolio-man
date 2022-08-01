@@ -9,7 +9,6 @@ const Project = ({ project }) => {
     <>
     <Link to={`${projectUrl}`} style={{ textDecoration: 'none' }}>
       <div className="projectContainer">
-        {/* <div className="imageBro" style={{ backgroundImage: `url(${images[project.imgUrl]})`}}></div> */}
         <img className="imageBro" src={images[project.imgUrl]} alt='Project Image'/>
         <div className='title'>
           <h3 style={{ color: '#000000' }}>{project.title}</h3>

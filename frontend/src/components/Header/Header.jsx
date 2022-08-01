@@ -6,7 +6,6 @@ const Header = () => {
   const path = window.location.pathname;
   return (
     <div className={path !== '/' ? 'headerContainer' : 'headerContainer centerBro' } >
-      {/* // <div className= "headerContainer"> */}
       <ul>
         {["Home", "about", "projects", "contact"].map((item, index) => (
           <Link

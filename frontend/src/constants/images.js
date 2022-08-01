@@ -7,7 +7,7 @@ import javascript from "../assets/javascript.png";
 import html from "../assets/html.png";
 import node from "../assets/node.png";
 import python from "../assets/python.png";
-// import react from "../assets/react.png";
+
 import react from "../assets/react_3.png";
 import redux from "../assets/redux.png";
 import sass from "../assets/sass.png";
@@ -16,7 +16,6 @@ import pandas from "../assets/pandas.png";
 import matplotlib from "../assets/matplotlib.png";
 import tensorflow from "../assets/tensorflow.png";
 
-// import scikitlearn from "../assets/scikitlearn.png";
 import scikitlearn from "../assets/scikitlearn_2.png";
 import express from "../assets/express.png";
 import firebase from "../assets/firebase.png";
