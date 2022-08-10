@@ -21,7 +21,7 @@ const About = () => {
             </p>
             <p>and</p>
             <p style={{ display: "inline", color: "#01bdae" }}>
-              Machine learnering Enthusiast.
+              Machine learning Enthusiast
               <br />
               <br />
             </p>
