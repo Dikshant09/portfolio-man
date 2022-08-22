@@ -6,6 +6,7 @@ import Contact from './components/Contact/Contact';
 import Header from './components/Header/Header';
 import Projects from './components/Projects/Projects';
 import ProjectItem from './components/ProjectItem/ProjectItem';
+import Footer from './components/Footer/Footer';
 
 import { ToastContainer } from 'react-toastify'; 
 import 'react-toastify/dist/ReactToastify.css';
@@ -13,6 +14,7 @@ import 'react-toastify/dist/ReactToastify.css';
 function App() {
   return (
     <>
+    <Footer />
       <Router>
         <Header />
         <Routes>
