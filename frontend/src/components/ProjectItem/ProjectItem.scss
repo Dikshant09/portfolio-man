@@ -111,8 +111,8 @@
 
     margin: 6rem;
     margin-bottom: 2rem;
-    font-size: 2.2rem;
-
+    font-size: 2rem;
+    padding: 0.5rem;
     border-radius: 15px;
     &:hover{
         box-shadow: 0 0 25px #a7c7cf;
@@ -121,8 +121,7 @@
 
 
     @media screen and (max-width: 1000px) {
-        font-size: 2rem;
-        padding: 2rem;
+        font-size: 1.8rem;
     }
 
     @media screen and (max-width: 850px) {

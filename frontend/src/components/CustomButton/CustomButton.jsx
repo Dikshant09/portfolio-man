@@ -7,7 +7,7 @@ import { saveAs } from "file-saver";
 const DownloadImage = () => {
   const download = () => {
     saveAs(
-      "https://drive.google.com/file/d/1MduAFgLS9X7zN6Je64dUEoExFauL2Y7g/view?usp=sharing"
+      "https://drive.google.com/file/d/16Aq9nosfJv1OXOLw61h9N4dqdEwel0ob/view?usp=sharing"
     ); 
   };
 
